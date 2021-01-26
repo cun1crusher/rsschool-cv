@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Arsenii Ogarkov</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Arsenii Ogarkov</h1>
+            <hr>
+            <h2>A newbie programmer with a strong background in Project management and Sales.</h2>
+        </header>
+        <section>
+            <div class="candidate">
+                <img src="img/ava.jpg" alt="Arsenii Ogarkov">
+                <div class="contacts">
+                    <h3 class="headPadding">Contacts</h3>
+                    <ul>
+                        <li><span class="semi-bold">Email: </span><a
+                                href="mailto:ogarkovar@yandex.ru">ogarkovar@yandex.ru</a> </li>
+                        <li><span class="semi-bold">Telegram: </span><a
+                                href="https://t.me/tommydrugdealer">@tommydrugdealer</a></li>
+                        <li><span class="semi-bold">Phone: </span><a href="tel:+79110939379">+7 (911) 093-93-79</a></li>
+                        <li><span class="semi-bold">Location: </span> Saint-Petersburg</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h3>Education</h3>
+            <hr>
+            <p><span class="semi-bold">Master's Programme in Global Management of Innovation and Technology,
+                    LUT University (Finland)</span> (2018-2019)</p>
+            <ul>
+                <li>
+                    Master of science (Technology)
+                    in accordance with the Degree Programme in Industrial Engineering and Management
+                </li>
+                <li>
+                    Research of IoT technologies in Supply Chain management <a
+                        href="https://lutpub.lut.fi/handle/10024/160409">Link</a>.
+                </li>
+                <li>
+                    Courses in project management, product development, marketing and statistics
+                </li>
+            </ul>
+            <p><span class="semi-bold">Master's Programme in Management in Technical Systems, Innovations,
+                    Peter the Great St.Petersburg Polytechnic University (SPbPU)</span> (2017-2019)</p>
+            <p><span class="semi-bold">Bachelor's Programme in Technogenic Safety, Peter the
+                    Great St.Petersburg Polytechnic University (SPbPU)</span> (2013-2017)</p>
+            <p><span class="semi-bold">Retraning courses in Humanitarian Institute, Translator, Peter the Great
+                    St.Petersburg Polytechnic University (SPbPU)</span> (2015-2017)</p>
+        </section>
+        <section>
+            <h3>Skills</h3>
+            <hr>
+            <p><span class="semi-bold">Programming:</span> Beginner in HTML/CSS, JavaScript, Git, SQL. School
+                courses of
+                programming in Delphi and Visual Basic
+            </p>
+            <p><span class="semi-bold">Data analysis:</span> MATLAB, STATA</p>
+            <p><span class="semi-bold">Project management:</span> Scrum, Kanban, Waterfall. Tools: Jira, Trello, MS
+                Project</p>
+            <p><span class="semi-bold">Design:</span> Photoshop/Illustrator/Figma</p>
+        </section>
+
+        <section>
+            <h3>Code Examples</h3>
+            <hr>
+            <pre>
+// I know it's simple, but it just beginning. This code emulates a chessboard in console. 
+
+let a13 = [];
+function f13() {
+    let s = 0;
+    for (let i = 0; i &lt; 8; i++) {
+        let temp = [];
+        for (let k = 0; k &lt; 8; k++) {
+            temp.push(s);
+            if (s == 0) {
+                s = 1;
+            }
+            else {
+                s = 0;
+            }
+        }
+        if (s == 0) {
+            s = 1;
+        }
+        else {
+            s = 0;
+        }
+        a13.push(temp);
+    }
+    console.log(a13);
+}
+f13();
+    </pre>
+        </section>
+        <section>
+            <h3>Projects</h3>
+            <hr>
+            <p>As a project manager in advertising production company,
+                I closed more than 30 car branding projects.
+                A small part of design layouts made as a result
+                of my interaction with designers: <a href="https://vk.cc/aC4kEm">Link</a></p>
+            <p>Programming projects will be added soon.</p>
+        </section>
+        <section>
+            <h3>Languages</h3>
+            <hr>
+            <ul>
+                <li>
+                    <b>English:</b> B2. In Finland i studied a companies cases as part of international
+                    teams,
+                    and gave presentations. It helped me to improve my English language skills.
+                    I speak English and understand technical documentation.
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3>About</h3>
+            <hr>
+            <ul>
+                <li>25 years old.</li>
+                <li>Motivated to explore the world and looking forward to new achievements and self-improvement.
+                    I love being part of a dedicated team, achieving goals and learning new skills.</li>
+                <li>Passionate about IT-industry, reading articles about web-development, programming, management,
+                    watching interviews with IT-specialists in different fields.</li>
+                <li>I can explain complicated things in simple words.</li>
+                <li>I have analytical thinking, I try to measure everything.</li>
+                <li>I love sports, I play American football.</li>
+            </ul>
+            <p> A recommendation letter from Professor Ari Happonen: <a href="https://vk.cc/axxd7R">Link</a></p>
+        </section>
+        <p class="copy">&copy; 2021</p>
+    </div>
+</body>
+
+</html>
