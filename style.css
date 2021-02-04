@@ -1,8 +1,15 @@
-body {
-    margin: 0;
+/* * {
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    margin: 30px auto;
     font-family: 'Montserrat';
-    
+    max-width: 1000px;
+    padding: 0 15px;
+    /* text-align: center; */
 }
 
 h1, h2 {
@@ -13,8 +20,16 @@ h2 {
     font-size: 20px;
 }
 
-.headPadding {
-    padding-left: 25px;
+p {
+    line-height: 2;
+}
+
+.listHeader {
+    padding-left: 22px;
+}
+
+.contacts li {
+    line-height: 2.5;
 }
 
 .semi-bold {
@@ -22,20 +37,69 @@ h2 {
 }
 
 .wrapper {
-    width: 900px;
-    margin: auto;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.candidate {
-    width: 600px;
-    display: flex;
-    margin: auto;
+.imageItems {
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.imageItems::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.imagePhoto {
+    width: 50%;
+    float: left;
+}
+
+.imageBodyWrap {
+    width: 50%;
+    float: left;
+}
+
+.imageBody {
+    width: 100%;
+    margin: 0 auto;   
+}
+
+@media screen and (max-width: 740px) {
+    .imagePhoto {
+        width: 100%;
+        float: none;
+    }
+
+    .imageBodyWrap {
+        width: 100%;
+        float: none;
+    }
+
+    ul {
+        padding: 0;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    .listHeader {
+        padding: 0;
+    }
 }
 
 img {
-    width: 250px;
-    height: 320px;
-    border-radius: 2%;
+    width: 240px;
+    height: 280px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3%;
 }
 
 ul {
@@ -47,6 +111,7 @@ pre {
     border: 1px dashed #2F6FAB;
     line-height: 1.1em;
     padding: 1em;
+    overflow: auto;
 }
 
 .copy {

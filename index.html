@@ -9,25 +9,32 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <header>
-            <h1>Arsenii Ogarkov</h1>
-            <hr>
-            <h2>A newbie programmer with a strong background in Project management and Sales.</h2>
-        </header>
+    <header>
+        <h1>Arsenii Ogarkov</h1>
+        <hr>
+        <h2>A newbie programmer with a strong background in Project management and Sales.</h2>
+    </header>
+    <main>
         <section>
-            <div class="candidate">
-                <img src="img/ava.jpg" alt="Arsenii Ogarkov">
-                <div class="contacts">
-                    <h3 class="headPadding">Contacts</h3>
-                    <ul>
-                        <li><span class="semi-bold">Email: </span><a
-                                href="mailto:ogarkovar@yandex.ru">ogarkovar@yandex.ru</a> </li>
-                        <li><span class="semi-bold">Telegram: </span><a
-                                href="https://t.me/tommydrugdealer">@tommydrugdealer</a></li>
-                        <li><span class="semi-bold">Phone: </span><a href="tel:+79110939379">+7 (911) 093-93-79</a></li>
-                        <li><span class="semi-bold">Location: </span> Saint-Petersburg</li>
-                    </ul>
+            <div class="imageItems">
+                <div class="imagePhoto">
+                    <figure>
+                        <img src="img/ava.jpg" alt="Arsenii Ogarkov">
+                    </figure>
+                </div>
+                <div class="imageBodyWrap">
+                    <div class="imageBody">
+                        <h3 class="listHeader">Contacts</h3>
+                        <ul class="contacts">
+                            <li><span class="semi-bold">Email: </span><a
+                                    href="mailto:ogarkovar@yandex.ru">ogarkovar@yandex.ru</a> </li>
+                            <li><span class="semi-bold">Telegram: </span><a
+                                    href="https://t.me/tommydrugdealer">@tommydrugdealer</a></li>
+                            <li><span class="semi-bold">Phone: </span><a href="tel:+79110939379">+7 (911) 093-93-79</a>
+                            </li>
+                            <li><span class="semi-bold">Location: </span> Saint-Petersburg</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -59,21 +66,25 @@
         <section>
             <h3>Skills</h3>
             <hr>
-            <p><span class="semi-bold">Programming:</span> Beginner in HTML/CSS, JavaScript, Git, SQL. School
-                courses of
-                programming in Delphi and Visual Basic
-            </p>
-            <p><span class="semi-bold">Data analysis:</span> MATLAB, STATA</p>
-            <p><span class="semi-bold">Project management:</span> Scrum, Kanban, Waterfall. Tools: Jira, Trello, MS
-                Project</p>
-            <p><span class="semi-bold">Design:</span> Photoshop/Illustrator/Figma</p>
+
+            <ul>
+                <li><span class="semi-bold">Programming:</span> Beginner in HTML/CSS, JavaScript, Git, SQL. School
+                    courses of
+                    programming in Delphi and Visual Basic</li>
+                <li><span class="semi-bold">Data analysis:</span> MATLAB, STATA</li>
+                <li><span class="semi-bold">Project management:</span> Scrum, Kanban, Waterfall. Tools: Jira, Trello, MS
+                    Project</li>
+                <li><span class="semi-bold">Design:</span> Photoshop/Illustrator/Figma</li>
+            </ul>
         </section>
 
         <section>
             <h3>Code Examples</h3>
             <hr>
             <pre>
-// I know it's simple, but it just beginning. This code emulates a chessboard in console. 
+            <code>
+// I know it's simple, but it just beginning. 
+// This code emulates a chessboard in console. 
 
 let a13 = [];
 function f13() {
@@ -100,8 +111,10 @@ function f13() {
     console.log(a13);
 }
 f13();
-    </pre>
+            </code>
+            </pre>
         </section>
+
         <section>
             <h3>Projects</h3>
             <hr>
@@ -126,20 +139,20 @@ f13();
         <section>
             <h3>About</h3>
             <hr>
-            <ul>
-                <li>25 years old.</li>
-                <li>Motivated to explore the world and looking forward to new achievements and self-improvement.
-                    I love being part of a dedicated team, achieving goals and learning new skills.</li>
-                <li>Passionate about IT-industry, reading articles about web-development, programming, management,
-                    watching interviews with IT-specialists in different fields.</li>
-                <li>I can explain complicated things in simple words.</li>
-                <li>I have analytical thinking, I try to measure everything.</li>
-                <li>I love sports, I play American football.</li>
-            </ul>
+            <p>25 years old.</p>
+            <p>Motivated to explore the world and looking forward to new achievements and self-improvement.
+                I love being part of a dedicated team, achieving goals and learning new skills.</p>
+            <p>Passionate about IT-industry, reading articles about web-development, programming, management,
+                watching interviews with IT-specialists in different fields.</p>
+            <p>I can explain complicated things in simple words.</p>
+            <p>I have analytical thinking, I try to measure everything.</p>
+            <p>I love sports, I play American football.</p>
             <p> A recommendation letter from Professor Ari Happonen: <a href="https://vk.cc/axxd7R">Link</a></p>
         </section>
+    </main>
+    <footer>
         <p class="copy">&copy; 2021</p>
-    </div>
+    </footer>
 </body>
 
 </html>
